@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class Stock extends StatelessWidget {
   Color _colorbase = Color(0xff0011FF);
   @override
@@ -12,12 +11,7 @@ class Stock extends StatelessWidget {
           backgroundColor: _colorbase,
           title: Text("Stock"),
         ),
-
-        body: Container(
-
-
-
-        ),
+        body: Container(),
       ),
     );
   }
