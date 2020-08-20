@@ -6,14 +6,18 @@ import 'stock.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class Inicio extends StatelessWidget {
-  Color _colorbase = Color(0xff0011FF);
+  Color _colorbase = Color(0xff0066FF);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Material App',
       home: Scaffold(
+        backgroundColor: Color(0x330066FF),
         body: Container(
+          padding: EdgeInsets.only(top: 10,),
           child: Column(
+
             children: <Widget>[
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -21,7 +25,8 @@ class Inicio extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       Container(
-                          width: 74,
+                          width: 70,
+                          height: 60,
                           child: Padding(
                               padding: EdgeInsets.all(5),
                               child: RaisedButton(
@@ -29,6 +34,7 @@ class Inicio extends StatelessWidget {
                                 child: Icon(
                                   Icons.cloud_download,
                                   color: Colors.white,
+                                  size: 30,
                                 ),
                                 onPressed: () {
                                   Navigator.of(context).push(
@@ -46,7 +52,8 @@ class Inicio extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       Container(
-                          width: 75,
+                          width: 70,
+                          height: 60,
                           child: Padding(
                               padding: EdgeInsets.all(5),
                               child: RaisedButton(
@@ -54,6 +61,7 @@ class Inicio extends StatelessWidget {
                                 child: Icon(
                                   Icons.arrow_forward,
                                   color: Colors.white,
+                                  size: 30,
                                 ),
                                 onPressed: () {
                                   Navigator.of(context).push(
@@ -71,7 +79,8 @@ class Inicio extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       Container(
-                          width: 75,
+                          width: 70,
+                          height: 60,
                           child: Padding(
                               padding: EdgeInsets.all(5),
                               child: RaisedButton(
@@ -79,6 +88,7 @@ class Inicio extends StatelessWidget {
                                 child: Icon(
                                   Icons.blur_circular,
                                   color: Colors.white,
+                                  size: 30,
                                 ),
                                 onPressed: () {
                                   Navigator.of(context).push(
@@ -96,7 +106,8 @@ class Inicio extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       Container(
-                          width: 75,
+                          width: 70,
+                          height: 60,
                           child: Padding(
                               padding: EdgeInsets.all(5),
                               child: RaisedButton(
@@ -104,6 +115,7 @@ class Inicio extends StatelessWidget {
                                 child: Icon(
                                   Icons.inbox,
                                   color: Colors.white,
+                                  size: 30,
                                 ),
                                 onPressed: () {
                                   Navigator.push(
@@ -225,3 +237,5 @@ class WebviewFlutter extends StatelessWidget {
     );
   }
 } /**/
+
+
