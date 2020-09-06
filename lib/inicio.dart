@@ -194,7 +194,8 @@ class Inicio extends StatelessWidget {
                         "Funciones                              ",
                         style: TextStyle(fontSize: 20),
                       ),
-                    )),
+                    )
+                ),
               )
             ],
           ),

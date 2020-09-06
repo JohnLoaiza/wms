@@ -1,7 +1,6 @@
 
 
 import 'package:flutter/cupertino.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -15,6 +14,7 @@ class Mensajes extends StatelessWidget {
       title: 'Material App',
 
       home: Scaffold(
+
         backgroundColor: Color(0x330066FF),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
@@ -76,10 +76,7 @@ class Mensajes extends StatelessWidget {
                   ),
                   Container(
 
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(3),
-                      color: Color(0x330066FF),
-                    ),
+
                     child: Image.asset('assets/images/Fondo.jpg', fit: BoxFit.cover,),
                     height: 231,
                     width: 280,

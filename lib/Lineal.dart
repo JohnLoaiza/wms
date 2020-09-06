@@ -111,7 +111,7 @@ class LinealB extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -208,7 +208,7 @@ class LinealC extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -305,7 +305,7 @@ class LinealD extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -402,7 +402,7 @@ class LinealE extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -499,7 +499,7 @@ class LinealF extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -596,7 +596,7 @@ class LinealG extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -693,7 +693,7 @@ class LinealH extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -790,7 +790,7 @@ class LinealI extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -887,7 +887,7 @@ class LinealJ extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
@@ -984,7 +984,7 @@ class Transtorio extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
 
             child:Column(
                 children: <Widget>[
@@ -1082,7 +1082,7 @@ class Piso extends StatelessWidget {
       title: 'Material App',
       home: Scaffold(
 
-        body: Container(
+        body: Center(
             child:Column(
                 children: <Widget>[
                   Form(
